@@ -15,7 +15,7 @@
     </li> -->
   </ul>
   <div class="main-visual-box">
-    <span class="main-visual-title">Create your vision</span>
+    <span class="main-visual-title">CREATE YOUR VISION</span>
     <span class="main-visual-subtitle">創るのは、想像する未来</span>
   </div>
 </div>

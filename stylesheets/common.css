@@ -1,6 +1,6 @@
 /* ページの名前 start*/
 .page-header {
-  margin: 147px 0 30px 70px;
+  margin: 100px 0 30px 70px;
   z-index: 8;
   position: relative;
   width: 80%;
@@ -8,7 +8,7 @@
 /* contactのみ */
 .contact-page-header {
   width: 100%;
-  margin: 147px auto 30px;
+  margin: 100px auto 30px;
 }
 /* contactのみ */
 .page-header__inner {

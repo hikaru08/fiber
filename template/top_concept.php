@@ -14,10 +14,10 @@
     </div>
     <div class="concept__container__contents">
       <span class="concept__container__contents__title">
-        目的　×　達成
+        「結果」の創造
       </span>
       <span class="concept__container__contents__sentence">
-      fiberが考えるクリエイティブとは、課題解決の<br>ために⾼品質なクリエイティブをワンストップで提案し<br>目的を達成すること。お客様のパートナーとして<br>お客様のビジネスを加速し、次の成⻑へと繋げます。
+      私たちの役割は、ただの「成果物」を作ることではありません。制作のその先にある、お客様の目的を達成するという「結果」を創出すること。それこそが、fiberの提供するクリエイトだと考えています。
       </span>
     </div>
     <div class="concept__container__image">

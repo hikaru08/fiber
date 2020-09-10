@@ -15,6 +15,7 @@
 }
 
 .concept__container__contents{
+  width: 380px;
   position: absolute;
   top: 30%;
   left: 10%;
