@@ -8,9 +8,9 @@ Template Post Type: post
 <?php get_header(); ?>
 <body>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-  <div class="wkd-page-header wkd-page-header--works wkd-page-header--works-detail">
-    <div class="wkd-page-header__inner">
-      <p class="wkd-page-header__heading">
+<div class="page-header">
+    <div class="page-header__inner">
+      <h1 class="page-header__heading">
         <span>works</span>
       </p>
     </div>
