@@ -38,7 +38,7 @@
           <div class="works-continer__items__contents__flex">
             <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
               <div class="works-continer__items__contents__block">
-                <a class="works-continer__items__contents__post__outer" href="#">
+                <a class="works-continer__items__contents__post__outer" href="<?php the_permalink() ?>">
                   <div class="works-continer__items__contents__post__overflow">
                     <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
                   </div>
@@ -62,7 +62,7 @@
           <div class="works-continer__items__contents__flex">
             <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
               <div class="works-continer__items__contents__block">
-                <a class="works-continer__items__contents__post__outer" href="#">
+                <a class="works-continer__items__contents__post__outer" href="<?php the_permalink() ?>">
                   <div class="works-continer__items__contents__post__overflow">
                     <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
                   </div>
@@ -86,7 +86,7 @@
           <div class="works-continer__items__contents__flex">
             <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
               <div class="works-continer__items__contents__block">
-                <a class="works-continer__items__contents__post__outer" href="#">
+                <a class="works-continer__items__contents__post__outer" href="<?php the_permalink() ?>">
                   <div class="works-continer__items__contents__post__overflow">
                     <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
                   </div>
@@ -110,7 +110,7 @@
           <div class="works-continer__items__contents__flex">
             <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
               <div class="works-continer__items__contents__block">
-                <a class="works-continer__items__contents__post__outer" href="#">
+                <a class="works-continer__items__contents__post__outer" href="<?php the_permalink() ?>">
                   <div class="works-continer__items__contents__post__overflow">
                     <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
                   </div>
