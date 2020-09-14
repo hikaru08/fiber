@@ -63,7 +63,16 @@ Template Post Type: post
               <h3 class="member__container__person__content__box__skill__title">スキルセット</h3>
               <!-- スキルセットは15個以内 -->
               <ul class="member__container__person__content__box__skill__element">
-                <?php the_tags('<li class="skill">', '</li><li class="skill">', '</li>') ?>
+                <?php
+                  $posttags = get_the_tags();
+                    if ( $posttags ) {
+                      foreach ( $posttags as $tag ) {
+                        echo '<li class="skill">'.$tag->name.'</li>';
+                      }
+                    }
+                  ?>
+                  <!-- スキルをリンク有りにする場合は↓ -->
+                  <!-- php the_tags('<li class="skill">', '</li><li class="skill">', '</li>')  -->
               </ul>
             </div>
           </div>
