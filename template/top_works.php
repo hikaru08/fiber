@@ -28,7 +28,7 @@
         </li>
         <li>
           <a href="#duu" class="secList">
-            <spani>Webアプリ</spani>
+            <span>Webアプリ</span>
           </a>
         </li>
       </ul>
