@@ -8,15 +8,9 @@ Template Name: article
 <div class="page-header">
   <div class="page-header__inner">
     <h1 class="page-header__heading">
-      <span>blog</span>
+      <span>BLOG</span>
     </h1>
-  </div>
-</div>
-<div class="creator__container__introduction">
-  <div class="creator__container__introduction__title">
-    <span class="creator__container__introduction__title__span">
-      記事一覧
-    </span>
+    <span class="page-header__subtitle">情報発信</span>
   </div>
 </div>
 <body class="article">
