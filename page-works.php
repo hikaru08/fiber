@@ -9,15 +9,9 @@ Template Name: works
   <div class="page-header">
     <div class="page-header__inner">
       <h1 class="page-header__heading">
-        <span>works</span>
+        <span>WORKS</span>
       </h1>
-    </div>
-  </div>
-  <div class="creator__container__introduction">
-    <div class="creator__container__introduction__title">
-      <span class="creator__container__introduction__title__span">
-        実績一覧
-      </span>
+      <span class="page-header__subtitle">制作実績</span>
     </div>
   </div>
   <div class="wk-index-module">

@@ -6,20 +6,16 @@ Template Name: creator
 <?php get_header()?>
   <div class="page-header">
     <div class="page-header__inner">
-      <h1 class="page-header__heading c-page-header__heading">
-        <span>creator</span>
+      <h1 class="page-header__heading cr-page-header__heading">
+        <span>CREATOR</span>
       </h1>
+      <span class="page-header__subtitle">クリエイター</span>
     </div>
   </div>
   <main class="creator">
     <!-- bootstrap等で幅を与えたい時のためにcontainerクラスを作成 -->
     <div class="creator__container">
       <div class="creator__container__introduction">
-        <div class="creator__container__introduction__title">
-          <span class="creator__container__introduction__title__span">
-            所属クリエイター
-          </span>
-        </div>
         <!-- box4個の全体 -->
         <div class="creator__container__introduction__content">
           <ul class="creator__container__introduction__content__box">

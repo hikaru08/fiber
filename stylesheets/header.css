@@ -20,9 +20,12 @@
   margin-top: 38px;
 }
 .header__right__list li{
+  text-align: center;
+  width: 120px;
   position: relative;
-  margin-right: 60px;
   font-weight: bold;
+  font-size: 14px;
+
 }
 .header__right__list li a::after{
   position: absolute;
@@ -44,7 +47,7 @@
   z-index: 2;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
   width: 100%;
   transform: translateY(-100%);
@@ -57,11 +60,12 @@
 }
 .navi ul li{
   font-size: 0.9rem;
+  color: #ffffff;
   font-family: 見出しゴMB31, "Midashi Go MB31", "Noto Sans JP", sans-serif;
   list-style-type: none;
   padding: 0;
   width: 100%;
-  border-bottom: 1px dotted #2b689c;
+  border-bottom: 1px dotted #ffffff;
 }
 .navi ul li a{
   display: block;
