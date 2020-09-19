@@ -59,6 +59,14 @@ Template Post Type: post
   <div class="select-blog-area" style="background-color: #ffffff;">
     <body class="article">
       <div class="article__container">
+        <div class="page-header">
+          <div class="page-header__inner">
+            <h1 class="page-header__heading">
+              <span>NEW BLOG</span>
+            </h1>
+            <span class="page-header__subtitle">新着記事</span>
+          </div>
+        </div>
         <?php $posts = get_posts('numberposts=3&category_name=article'); global $post; ?>
         <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
         <div class="article__container__item" style="margin-top: 35px;">
