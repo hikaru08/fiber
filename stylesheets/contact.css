@@ -4,58 +4,66 @@ display: none;
 .pageTitle span {
   display: none;
 }
-.main {
-  display: flex;
+
+.contact{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .form_row {
-  padding: 0.5em;
-  text-align: center;
+  display: flex;
 }
+
 .form_label {
-  font-family: "TsukuBRdGothic-Regular", sans-serif;
+  min-width: 16.125rem;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 0;
 }
 
 .span-label {
+  display: block;
+  background-color: #222;
   color: #fff;
-  border-radius: 3px;
-  font-size: 12px;
-  margin-right: 10px;
-  padding: 5px 10px;
-  letter-spacing: 0.2em;
-  background: #ff1a00;
-  font-family: "TsukuBRdGothic-Regular", sans-serif;
-  margin-left: 1em;
+  font-size: .75rem;
+  letter-spacing: .1em;
+  text-align: center;
+  padding: .0625rem .625rem;
+  margin-left: 1rem;
+  min-width: 3rem;
 }
+
 .form_content {
-  padding: 1em 0;
+  width: 100%;
+  padding: 1rem 0 1rem 2rem;
+  text-align: left;
 }
 .form_row-center {
-  text-align: center;
+  display: block;
+  margin: 2rem 0;
 }
-input[type="text"],
-input[type="email"],
-#budget,
-select {
+
+
+.input_type {
   width: 100%;
-  border-radius: 5px;
   border: 1px solid #ccc;
   height: 3em;
   padding: 0 1em;
 }
-select {
-  text-indent: 40%;
-}
+
 #message {
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #ccc;
   height: 10em;
-  padding: 1em;
 }
+
+
+
 /* 送信ボタン */
 input.btn {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: 60px;
   background: #2c649c;
   color: #fff;
@@ -75,18 +83,72 @@ input.btn:hover {
   background: #fff;
   color: #2c649c;
 }
-select {
-  text-indent: 40%;
+
+/* 注意事項 */
+.Form__attention{
+  overflow-y: scroll;
+  margin: 2rem auto 0 auto;
+  max-width: 50rem;
+  height: 15rem;
+  border: solid 1px #ddd;
 }
-@media screen and (max-width: 959px) {
-  /* 959px以下に適用されるCSS（タブレット用） */
-}
-@media screen and (max-width: 480px) {
-  /* 480px以下に適用されるCSS（スマホ用） */
-  form {
-    font-size: 20px;
+
+  .Form__attention__text{
+    padding: 2rem 1rem;
   }
-  select {
-    text-indent: 35%;
+    .Form__attention__text span{
+      margin-top: 1rem;
+      display: block;
+    }
+
+    .title{
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .sub-title{
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    .discription{
+      font-weight: normal;
+    }
+
+.Form__check{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.Form__check label{
+  font-weight: bold;
+}
+
+.Form__check label span{
+  display: contents;
+}
+
+
+@media screen and (min-width: 769px) {
+  .harf{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact{
+    width: 90%;
+  }
+  .form_row {
+    display: block;
+  }
+  .form_label {
+    width: 100%;
+    background-color: transparent;
+    padding: .75rem 0 0;
+    justify-content: end;
+  }
+  .form_content {
+    padding: .75rem 0;
   }
 }

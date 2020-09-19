@@ -17,13 +17,8 @@ if(is_page('contact')){
                 <span class="page-header__subtitle">お問い合わせ</span>
             </div>
         </div>
-        <main class="main">
-            <div class="container">
-                <div class="content">
-                    <?php the_content(); ?>
-                </div>
-            </div>
-        </main>
+        
+        <?php the_content(); ?>
 
     <?php endwhile; ?>
 <?php endif; ?>
