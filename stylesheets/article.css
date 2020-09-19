@@ -298,6 +298,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    font-size: 90%;
   }
   .article__container__item {
     width: 50%;
