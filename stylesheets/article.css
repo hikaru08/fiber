@@ -57,11 +57,17 @@
 
 @media screen and (max-width: 767px) {
   .article__container {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
   }
   .article__container__item {
-    width: 100%;
-    margin-top: 30px;
+    width: 50%;
+    margin: 0;
+    padding: 0 1%;
+  }
+  .article__container__item__down-box {
+    height: 110px;
   }
 }
 
