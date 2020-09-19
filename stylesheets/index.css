@@ -181,7 +181,7 @@
   font-size: 0.6875rem;
   letter-spacing: 0.05em;
   /* color: #297b50; */
-  color: #0000cd;
+  color: #2b689c;
   margin-bottom: 0.3125rem;
 }
 .works-continer__items__contents__post__namebox__title {
@@ -212,14 +212,17 @@
   align-items: center;
   width: inherit;
   background-color: #fff;
-  /* color: #297b50; */
-  color: #0000cd;
-  border-bottom: 1px solid #0000cd;
+  color: #2b689c;
+  border-bottom: 1px solid #2b689c;
   text-decoration: none;
   position: relative;
   transition: all 0.3s;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
   opacity: 1 !important;
+}
+.all-button:hover {
+  background-color: #2b689c;
+  color: #fff;
 }
 /* ALL VIEWボタン end */
 /* item end */
