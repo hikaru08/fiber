@@ -11,7 +11,7 @@ Template Post Type: post
 <div class="page-header">
     <div class="page-header__inner">
       <h1 class="page-header__heading">
-        <span>works</span>
+        <span>WORKS</span>
       </p>
     </div>
   </div>
