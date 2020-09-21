@@ -39,7 +39,7 @@ Template Name: works
     </ul>
 
     <div class="wk-list-module">
-    <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=27'); global $post; ?>
+    <?php $posts = get_posts('numberposts=6&category_name=works&tag=webサイト'); global $post; ?>
       <div id="fuu" class="works-continer__items__contents">
         <div class="works-continer__items__contents__post">
           <div class="works-continer__items__contents__flex">
@@ -63,7 +63,7 @@ Template Name: works
           </div>
         </div>
       </div>
-      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=29'); global $post; ?>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag=webデザイン'); global $post; ?>
       <div id="euu" class="works-continer__items__contents">
         <div class="works-continer__items__contents__post">
           <div class="works-continer__items__contents__flex">
@@ -87,7 +87,7 @@ Template Name: works
           </div>
         </div>
       </div>
-      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=30'); global $post; ?>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag=動画'); global $post; ?>
       <div id="guu" class="works-continer__items__contents">
         <div class="works-continer__items__contents__post">
           <div class="works-continer__items__contents__flex">
@@ -111,7 +111,7 @@ Template Name: works
           </div>
         </div>
       </div>
-      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=28'); global $post; ?>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag=webアプリ'); global $post; ?>
       <div id="duu" class="works-continer__items__contents">
         <div class="works-continer__items__contents__post">
           <div class="works-continer__items__contents__flex">
@@ -135,7 +135,6 @@ Template Name: works
           </div>
         </div>
       </div>
-
     </div>
 	</div>
 </body>
