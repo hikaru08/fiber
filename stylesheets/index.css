@@ -94,50 +94,52 @@
 }
 /* ヘッド end */
 /* nav */
-.works-continer__items {
-}
-.works-continer__items__navs {
+.tab-wrap {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 4.5rem;
 }
-.works-continer__items__navs li {
-  min-width: 7.625rem;
-  margin-right: 0.5rem;
-}
-.works-continer__items__navs li a {
+.tab-label {
   font-family: "見出しゴMB31", "Midashi Go MB31", "Noto Sans JP", sans-serif;
-  font-weight: 700;
   background-color: #fff;
-  color: #222;
+  font-weight: 700;
+  color: #353535;
+  font-size: 14px;
+  transition: all 0.5s;
   text-align: center;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2.9375rem;
-  width: 100%;
-  position: relative;
-  transition: all 0.3s;
-  font-size: 0.875rem;
+  margin-right: 10px;
+  padding: 8px 15px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  order:-1;
 }
-.works-continer__items__navs li :hover {
-  background-color: #2b689c;
-  color: #fff;
+.tab-content {
+  width: 100%;
+  display: none;
+  margin-top: 30px;
+}
+.tab-content {
+  width: 100%;
+  display: none;
+}
+.tab-switch:checked+.tab-label {
+  background: #2b689c;
+  color: #ffffff;
+}
+.tab-switch:checked+.tab-label+.tab-content {
+  display: block;
+}
+.tab-switch:hover+.tab-label {
+  background: #2b689c;
+  color: #ffffff;
+  cursor: pointer;
+}
+.tab-switch {
+  display: none;
 }
 
 /* nav end*/
 
 /* item start */
 /* item-image start */
-.works-continer__items__contents {
-  display: block;
-}
-.works-continer__items__contents__post {
-}
 .works-continer__items__contents__flex {
   display: flex;
   align-items: flex-start;
@@ -156,14 +158,10 @@
 }
 .works-continer__items__contents__post__overflow {
   width: 100%;
-  padding-top: 67.83784%;
   position: relative;
   overflow: hidden;
 }
 .works-continer__items__contents__post__image {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -409,16 +407,12 @@ img {
     width: 100%;
     margin: 0 auto;
   }
-  .works-continer__items__navs {
-    margin: 0 auto 3rem;
-  }
-  .works-continer__items__navs li {
-    min-width: calc(24% - 3px);
-    max-width: calc(24% - 3px);
-    margin-right: 0.25rem;
-  }
-  .works-continer__items__navs span {
-    font-size: 0.6875rem;
+  .tab-label {
+    width: 23%;
+    justify-content: space-around;
+    font-size: 11px;
+    margin: 0 2px;
+    padding: 5px 0;
   }
   .works-continer__items__contents__block {
     width: 50%;
@@ -448,7 +442,6 @@ img {
   /* 記事折り返し設定 */
   margin: 0 auto;
 }
-
 .article-item {
   /* 記事アイテムの一つの大きさ */
   width: 30%;
