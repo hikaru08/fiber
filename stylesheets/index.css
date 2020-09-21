@@ -408,9 +408,11 @@ img {
     margin: 0 auto;
   }
   .tab-label {
-    font-size: 12px;
-    margin-right: 5px;
-    padding: 5px 12px;
+    width: 23%;
+    justify-content: space-around;
+    font-size: 11px;
+    margin: 0 2px;
+    padding: 5px 0;
   }
   .works-continer__items__contents__block {
     width: 50%;

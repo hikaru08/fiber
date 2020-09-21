@@ -40,7 +40,7 @@
           </div>
         </div>
         <input id="TAB-02" type="radio" name="TAB" class="tab-switch" />
-        <label class="tab-label" for="TAB-02">Webデザイン</label>
+        <label class="tab-label" for="TAB-02">ECサイト</label>
         <div class="tab-content">
           <?php $posts = get_posts('numberposts=6&category_name=works&tag=webデザイン'); global $post; ?>
           <div id="WebDesign" class="works-continer__items__contents">
@@ -68,7 +68,7 @@
           </div>
         </div>
         <input id="TAB-03" type="radio" name="TAB" class="tab-switch" />
-        <label class="tab-label" for="TAB-03">動画</label>
+        <label class="tab-label" for="TAB-03">LP</label>
         <div class="tab-content">
           <?php $posts = get_posts('numberposts=6&category_name=works&tag=動画'); global $post; ?>
           <div id="Movie" class="works-continer__items__contents">
@@ -96,7 +96,7 @@
           </div>
         </div>
         <input id="TAB-04" type="radio" name="TAB" class="tab-switch" />
-        <label class="tab-label" for="TAB-04">Webアプリ</label>
+        <label class="tab-label" for="TAB-04">スマホアプリ</label>
         <div class="tab-content">
           <?php $posts = get_posts('numberposts=6&category_name=works&tag=webアプリ'); global $post; ?>
           <div id="WebApp" class="works-continer__items__contents">
