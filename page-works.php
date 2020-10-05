@@ -49,7 +49,7 @@ Template Name: works
           <input id="TAB-02" type="radio" name="TAB" class="tab-switch" />
           <label class="tab-label" for="TAB-02">ECサイト</label>
           <div class="tab-content">
-            <?php $posts = get_posts('numberposts=6&category_name=works&tag=webデザイン'); global $post; ?>
+            <?php $posts = get_posts('numberposts=6&category_name=works&tag=ecサイト'); global $post; ?>
             <div id="WebDesign" class="works-continer__items__contents">
               <div class="works-continer__items__contents__post">
                 <div class="works-continer__items__contents__flex">
@@ -77,7 +77,7 @@ Template Name: works
           <input id="TAB-03" type="radio" name="TAB" class="tab-switch" />
           <label class="tab-label" for="TAB-03">LP</label>
           <div class="tab-content">
-            <?php $posts = get_posts('numberposts=6&category_name=works&tag=動画'); global $post; ?>
+            <?php $posts = get_posts('numberposts=6&category_name=works&tag=lp'); global $post; ?>
             <div id="Movie" class="works-continer__items__contents">
               <div class="works-continer__items__contents__post">
                 <div class="works-continer__items__contents__flex">
@@ -105,7 +105,7 @@ Template Name: works
           <input id="TAB-04" type="radio" name="TAB" class="tab-switch" />
           <label class="tab-label" for="TAB-04">スマホアプリ</label>
           <div class="tab-content">
-            <?php $posts = get_posts('numberposts=6&category_name=works&tag=webアプリ'); global $post; ?>
+            <?php $posts = get_posts('numberposts=6&category_name=works&tag=スマホアプリ'); global $post; ?>
             <div id="WebApp" class="works-continer__items__contents">
               <div class="works-continer__items__contents__post">
                 <div class="works-continer__items__contents__flex">

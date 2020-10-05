@@ -22,7 +22,7 @@
                   <div class="works-continer__items__contents__block">
                     <a class="works-continer__items__contents__post__outer" href="<?php the_permalink() ?>">
                       <div class="works-continer__items__contents__post__overflow">
-                        <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+                        <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>" alt="<?php echo the_field('image')['alt']; ?>"></img>
                       </div>
                       <div class="works-continer__items__contents__post__namebox">
                         <div class="works-continer__items__contents__post__namebox__category">
@@ -42,7 +42,7 @@
         <input id="TAB-02" type="radio" name="TAB" class="tab-switch" />
         <label class="tab-label" for="TAB-02">ECサイト</label>
         <div class="tab-content">
-          <?php $posts = get_posts('numberposts=6&category_name=works&tag=webデザイン'); global $post; ?>
+          <?php $posts = get_posts('numberposts=6&category_name=works&tag=ecサイト'); global $post; ?>
           <div id="WebDesign" class="works-continer__items__contents">
             <div class="works-continer__items__contents__post">
               <div class="works-continer__items__contents__flex">
@@ -70,7 +70,7 @@
         <input id="TAB-03" type="radio" name="TAB" class="tab-switch" />
         <label class="tab-label" for="TAB-03">LP</label>
         <div class="tab-content">
-          <?php $posts = get_posts('numberposts=6&category_name=works&tag=動画'); global $post; ?>
+          <?php $posts = get_posts('numberposts=6&category_name=works&tag=lp'); global $post; ?>
           <div id="Movie" class="works-continer__items__contents">
             <div class="works-continer__items__contents__post">
               <div class="works-continer__items__contents__flex">
@@ -98,7 +98,7 @@
         <input id="TAB-04" type="radio" name="TAB" class="tab-switch" />
         <label class="tab-label" for="TAB-04">スマホアプリ</label>
         <div class="tab-content">
-          <?php $posts = get_posts('numberposts=6&category_name=works&tag=webアプリ'); global $post; ?>
+          <?php $posts = get_posts('numberposts=6&category_name=works&tag=スマホアプリ'); global $post; ?>
           <div id="WebApp" class="works-continer__items__contents">
             <div class="works-continer__items__contents__post">
               <div class="works-continer__items__contents__flex">
@@ -126,7 +126,7 @@
       </div>
       
       <div class="all-view">
-        <a class="all-view__content all-button" href="<?php echo home_url("works"); ?>">
+        <a class="all-view__content all-button" href="https://fiber.fibe-group.com/index.php/works">
         <span>ALL VIEW</span>
         </a>
       </div>

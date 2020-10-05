@@ -60,6 +60,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0;
+	 padding: 10% 0;
   }
   .article__container__item {
     width: 50%;
@@ -259,7 +260,7 @@
 @media screen and (max-width: 639px) {
   .single-article-container {
     width: 100%;
-    padding-top: 0;
+    padding: 10% 0;
   }
 
   .single-article__content p {
@@ -297,7 +298,7 @@
   .article__container {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+    padding: 10% 0;
   }
   .article__container__item {
     width: 50%;

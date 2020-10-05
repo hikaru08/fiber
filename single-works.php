@@ -8,11 +8,12 @@ Template Post Type: post
 <?php get_header(); ?>
 <body>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<div class="page-header">
-    <div class="page-header__inner">
-      <h1 class="page-header__heading">
-        <span>WORKS</span>
-      </p>
+	<div class="page-header">
+    	<div class="page-header__inner">
+      	<h1 class="page-header__heading cr-page-header__heading">
+        	<span>WORKS</span>
+      	</h1>
+      <span class="page-header__subtitle">制作実績</span>
     </div>
   </div>
   <article class="wkd-article">
@@ -22,7 +23,14 @@ Template Post Type: post
         <p class="wkd-info-module__client"><?php the_title(); ?></p>
         <div class="wkd-info-module__texts">
           <div class="wk-list-item-module__categories">
-            <?php the_tags('', '', '') ?>
+            <?php
+                  $posttags = get_the_tags();
+                    if ( $posttags ) {
+                      foreach ( $posttags as $tag ) {
+                        echo '<span>'.$tag->name.'</span>';
+                      }
+                    }
+                  ?>
           </div>
         </div>
       </div>

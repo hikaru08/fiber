@@ -1,6 +1,8 @@
-<div class="shutter">
-  <p class="text_clip">Welcom to<br/>fiber</p>
-</div> 
+<sectioon id="shutter" class="shutter">
+  <div class="shutter__content">
+    <p>Welcome to<br>fiber</p>
+  </div>
+</sectioon> 
 <!-- slick.jsではないスライド -->
 <div class="wrap">
   <ul id="slide_wrap">

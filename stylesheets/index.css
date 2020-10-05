@@ -545,7 +545,6 @@ dd {
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   font-size: 18px;
   padding: 0 0.3em;
-  opacity: 0.5;
 }
 
 /* button */
@@ -594,7 +593,6 @@ footer {
 small {
   display: table;
   margin: 0 auto;
-  opacity: 0.5;
 }
 @media screen and (max-width: 920px) {
   /* 記事アイテムを大きくして二列にする */
