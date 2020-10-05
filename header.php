@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
   <?php wp_head(); ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
