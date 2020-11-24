@@ -17,7 +17,7 @@
   position: relative;
 }
 .page-header__heading {
-  border-left: 8px solid #2b689c;
+  border-left: 8px solid #429EA7;
   letter-spacing: 3px;
   font-size: 55px;
   padding-left: 10px;
@@ -36,7 +36,7 @@
 
 /* サブタイトル start */
 .creator__container__introduction__title {
-  border-bottom: 5px dashed rgba(43, 104, 156, 1);
+  border-bottom: 5px dashed rgba(66, 158, 167, 1);
   padding-top: 3rem;
   text-align: center;
   letter-spacing: .2rem;

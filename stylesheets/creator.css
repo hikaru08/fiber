@@ -15,7 +15,7 @@
   width: 25%;
 }
 .square__text {
-  border: solid 2px rgba(43, 104, 156, 1);
+  border: solid 2px rgba(66, 158, 167, 1);
   display: block;
   /* padding-top: 100%; */
   color: #000;
@@ -28,7 +28,7 @@
 .square__text:hover {
   color: #ffffff;
   transition: background-color 0.1s linear;
-  background-color: rgba(43, 104, 156, 1);
+  background-color: rgba(66, 158, 167, 1);
 }
 .square__text__img {
   opacity: 0;

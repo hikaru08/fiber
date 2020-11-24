@@ -21,7 +21,7 @@
 }
 .member__container__person__content__box__name {
   position: relative;
-  border-left: solid 5px rgba(43, 104, 156, 1);
+  border-left: solid 5px rgba(66, 158, 167, 1);
   font-weight: bold;
   padding: 0.5rem 0 0.5rem 1rem;
 }
@@ -31,7 +31,7 @@
   letter-spacing: 0.5vw;
 }
 .member__container__person__content__box__name__romaji {
-  color: rgba(43, 104, 156, 1);
+  color: rgba(66, 158, 167, 1);
   font-size: 1.5vw;
   letter-spacing: 0.5vw;
 }
@@ -138,7 +138,7 @@
 .right {
   height: 100%;
   width: 55%;
-  border: solid 5px rgba(43, 104, 156, 1);
+  border: solid 5px rgba(66, 158, 167, 1);
 }
 .right__img {
   width: 100%;

@@ -121,14 +121,14 @@
   display: none;
 }
 .tab-switch:checked+.tab-label {
-  background: #2b689c;
+  background: #429EA7;
   color: #ffffff;
 }
 .tab-switch:checked+.tab-label+.tab-content {
   display: block;
 }
 .tab-switch:hover+.tab-label {
-  background: #2b689c;
+  background: #429EA7;
   color: #ffffff;
   cursor: pointer;
 }
@@ -179,7 +179,7 @@
   font-size: 0.6875rem;
   letter-spacing: 0.05em;
   /* color: #297b50; */
-  color: #2b689c;
+  color: #429EA7;
   margin-bottom: 0.3125rem;
 }
 .works-continer__items__contents__post__namebox__title {
@@ -210,8 +210,8 @@
   align-items: center;
   width: inherit;
   background-color: #fff;
-  color: #2b689c;
-  border-bottom: 1px solid #2b689c;
+  color: #429EA7;
+  border-bottom: 1px solid #429EA7;
   text-decoration: none;
   position: relative;
   transition: all 0.3s;
@@ -219,7 +219,7 @@
   opacity: 1 !important;
 }
 .all-button:hover {
-  background-color: #2b689c;
+  background-color: #429EA7;
   color: #fff;
 }
 /* ALL VIEWボタン end */
@@ -503,7 +503,7 @@ dd {
   height: 100%;
   object-fit: cover;
   transition: 1s all;
-  border: 5px solid #2c649c;
+  border: 5px solid #429EA7;
 }
 .image-trim img:hover {
   width: 100%;
@@ -554,7 +554,7 @@ dd {
   font-weight: bold;
   padding: 5px 11px 5px 15px;
   text-decoration: none;
-  color: #2c649c;
+  color: #429EA7;
   transition: 0.4s;
 }
 
@@ -567,7 +567,7 @@ dd {
   top: 0;
   left: 0;
   border-radius: 3px;
-  background: #2c649c;
+  background: #429EA7;
 }
 
 .btn-vertical-border:after {
@@ -579,7 +579,7 @@ dd {
   top: 0;
   left: 100%;
   border-radius: 3px;
-  background: #2c649c;
+  background: #429EA7;
 }
 
 .btn-vertical-border:hover:before,

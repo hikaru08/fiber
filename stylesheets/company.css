@@ -28,13 +28,13 @@
 .c-contents__list li .left-box{
   width: 30%;
   color: #fff;
-  background-color: #2b689c;
+  background-color: #429EA7;
   font-size: 18px;
   font-weight: bold;
 }
 .c-contents__list li .right-box{
   width: 70%;
-  border: 1px solid #2b689c;
+  border: 1px solid #429EA7;
 }
 
 @media screen and (max-width:768px) {

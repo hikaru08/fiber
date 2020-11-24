@@ -13,7 +13,7 @@
 }
 .header__left__logo img{
   margin-top: 15px;
-  width: 120px;
+  height: 55px;
 }
 .header__right__list{
   display: flex;
@@ -34,7 +34,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #2b689c;
+  background: #429EA7;
   transition: all 0.3s ease 0s;
 }
 .header__right__list li a:hover::after{
@@ -106,7 +106,7 @@
   display: block;
   position: absolute;
   width: 30px;
-  border-bottom: solid 3px #2b689c;
+  border-bottom: solid 3px #429EA7;
   -webkit-transition: .35s ease-in-out;
   -moz-transition: .35s ease-in-out;
   transition: .35s ease-in-out;

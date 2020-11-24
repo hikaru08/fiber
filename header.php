@@ -35,7 +35,7 @@
   <body>
     <header class="header">
     <div class="header__left">
-      <a href="<?php echo home_url(); ?>" class="header__left__logo"><img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="ロゴ"></a>
+      <a href="<?php echo home_url(); ?>" class="header__left__logo"><img src="<?php echo get_template_directory_uri()?>/images/kl-logo.png" alt="ロゴ"></a>
     </div>
     <div class="header__right">
       <?php
@@ -62,7 +62,7 @@
     <div class="header-responsive__left">
       <a href="<?php echo home_url(); ?>">
         <div class="logo">
-          <img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="ロゴ">
+          <img src="<?php echo get_template_directory_uri()?>/images/kl-logo.png" alt="ロゴ">
         </div>
       </a>
     </div>
