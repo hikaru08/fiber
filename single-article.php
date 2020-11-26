@@ -4,7 +4,6 @@ Template Name: article
 Template Post Type: post
 */
 ?>
-
 <?php get_header(); ?>
 <body style="background-color: #f6f6f4;">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
