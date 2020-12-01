@@ -1,6 +1,6 @@
 <sectioon id="shutter" class="shutter">
   <div class="shutter__content">
-    <p>Welcome to<br>fiber</p>
+    <p>WELCOME TO<br>KYOTO LIBRARY</p>
   </div>
 </sectioon> 
 <!-- slick.jsではないスライド -->
