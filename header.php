@@ -4,7 +4,7 @@
   <?php wp_head(); ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
-    <title>fiber</title>
+    <title>京都ライブラリ</title>
     <meta name="description" content="" />
     <meta name="author" content="fiber" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
