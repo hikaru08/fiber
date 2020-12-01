@@ -1,4 +1,4 @@
   <?php wp_footer(); ?>  
-  <footer><small>&copy; FiBe.inc All rights reserved</small></footer>
+  <footer><small>&copy; Kyoto Library All rights reserved</small></footer>
   </body>
 </html>
