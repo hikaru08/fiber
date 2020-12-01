@@ -92,7 +92,7 @@
   background-color: #fff;
 }
 .header-responsive__left a .logo img{
-  width: 90px;
+  height: 35px;
   margin-top: 5px;
 }
 .header-responsive__right .toggle{
