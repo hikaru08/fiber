@@ -61,5 +61,7 @@
   }
   .main-visual-subtitle{
     font-size: 20px;
+    text-align: right;
+    padding: 10px 15px 0 0;
   }
 }
