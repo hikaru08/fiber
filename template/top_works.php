@@ -126,7 +126,7 @@
       </div>
       
       <div class="all-view">
-        <a class="all-view__content all-button" href="<?php echo home_url("creator"); ?>">
+        <a class="all-view__content all-button" href="<?php echo home_url("works"); ?>">
         <span>ALL VIEW</span>
         </a>
       </div>
