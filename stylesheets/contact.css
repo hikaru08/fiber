@@ -128,6 +128,9 @@ input.btn:hover {
   display: contents;
 }
 
+.mw_wp_form_confirm .Form__attention, .Form__check{
+  display: none;
+}
 
 @media screen and (min-width: 769px) {
   .harf{
