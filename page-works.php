@@ -103,9 +103,9 @@ Template Name: works
             </div>
           </div>
           <input id="TAB-04" type="radio" name="TAB" class="tab-switch" />
-          <label class="tab-label" for="TAB-04">スマホアプリ</label>
+          <label class="tab-label" for="TAB-04">システム開発</label>
           <div class="tab-content">
-            <?php $posts = get_posts('numberposts=6&category_name=works&tag=スマホアプリ'); global $post; ?>
+            <?php $posts = get_posts('numberposts=6&category_name=works&tag=システム開発'); global $post; ?>
             <div id="WebApp" class="works-continer__items__contents">
               <div class="works-continer__items__contents__post">
                 <div class="works-continer__items__contents__flex">
