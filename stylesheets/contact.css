@@ -128,7 +128,7 @@ input.btn:hover {
   display: contents;
 }
 
-.mw_wp_form_confirm .Form__attention, .Form__check{
+.mw_wp_form_confirm .Form__attention{
   display: none;
 }
 
