@@ -13,9 +13,6 @@
   <?php wp_head(); ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
-    <title>京都ライブラリ</title>
-    <meta name="description" content="" />
-    <meta name="author" content="fiber" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/reset.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/header.css" />
