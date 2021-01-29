@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VS0TP8PX3W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VS0TP8PX3W');
+  </script>
   <?php wp_head(); ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
+    <title>京都ライブラリ</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/reset.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/header.css" />
